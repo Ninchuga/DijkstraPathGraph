@@ -7,7 +7,7 @@ namespace DijkstraAlgoPath
 {
     public class DijkstraGraph
     {
-        public List<Vertex> Vertices;
+        public readonly List<Vertex> Vertices;
         private readonly Dictionary<string, List<Vertex>> _neighbours;
         private readonly HashSet<Vertex> _visitedVertices;
         private readonly List<Vertex> _unvisitedVertices;
